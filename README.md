@@ -15,6 +15,4 @@ Steps
 * Flow
   * User clicks "Log In"
   * Discourse redirects you to "https://my-sso-url?sso=SOMETHING&sig=ANOTHER-THING"
-  * You redirect the user to login screen, verify the auth. On success, redirect the user base to discourse
-
-
+  * You redirect the user to login screen, verify the auth. On success, redirect the user back to discourse
