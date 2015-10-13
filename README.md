@@ -11,8 +11,8 @@ Requirements
 Steps
 -----
 * Place the contents of this project in the root directory of your webserver
-* Modify the SSO url in the admin settings of Discourse
+* Modify the SSO url in the admin settings of Discourse as `https://my-sso-url/auth.py`
 * Flow
   * User clicks "Log In"
-  * Discourse redirects you to "https://my-sso-url?sso=SOMETHING&sig=ANOTHER-THING"
+  * Discourse redirects you to `https://my-sso-url/auth.py?sso=SOMETHING&sig=ANOTHER-THING`
   * You redirect the user to login screen, verify the auth. On success, redirect the user back to discourse
