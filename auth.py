@@ -13,7 +13,7 @@ from ldap3 import Server, Connection, ALL, AUTH_SIMPLE, SUBTREE
 
 
 def validate_user_ldap_details(username, password):
-    ldap_server="ldap://ldap.mycompany.com"
+    ldap_server="ldaps://ldap.mycompany.com"
     base_dn = "ou=People,dc=mycompany,dc=com"
     user_dn = "uid="+username+","+ base_dn
 
