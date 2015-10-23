@@ -16,3 +16,4 @@ Steps
   * User clicks "Log In"
   * Discourse redirects you to `https://my-sso-url/auth.py?sso=SOMETHING&sig=ANOTHER-THING`
   * You redirect the user to login screen, verify the auth. On success, redirect the user back to discourse
+* You can run the entire SSO flow using `runner.py` for testing purposes.
